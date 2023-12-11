@@ -4,7 +4,7 @@ class HypixelGuild:
 		self.name = data['name']
 		self.name_lower = data['name_lower']
 		self.created_raw = data['created']
-		self.members = HypixelGuildMembers(data['members'])
+		self.members: HypixelGuildMembers = HypixelGuildMembers(data['members'])
 
 
 class HypixelGuildMembers:
