@@ -1,0 +1,7 @@
+**__pycache__
+
+# JetBrains IDE Generated Files
+.idea
+
+# Developer Environment
+venv/
